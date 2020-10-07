@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Portfolio</title>
+
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+
+</head>
+
+<body>
+
+  <header class="page-header">
+      <img src="img/logo.svg" alt="Kurt Wagner" class="page-header__item">    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role=menuitem class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div>
+    <!-- Commentary -->
+    <h1>Contact</h1>
+
+    <a href="mailto:mrumiker@gmail.com">Contact me</a>
+
+    <address>
+      Charles Umiker<br>
+      2063 Young Ave<br>
+      Memphis, TN<br>
+      38104<br>
+      <br>
+      <a href="tel:215-983-9238">Phone: 215-983-9238</a><br>
+      <a href="skype:live:.cid.554a852f52c8a263">Skype</a><br>
+      <a href="mailto:mrumiker@gmail.com">Email: mrumiker@gmail.com</a>
+    </address>
+
+  </div>
+
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">E-mail: </label>
+    <input type="email" id="contact-email" required>
+
+    <label class="standard-label" for="contact-phone">Telephone: </label>
+    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-phone">
+
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea maxlength="240" id="contact-message" required></textarea>
+
+    <input class="button" type="submit" value="Send message">
+  </form>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img class="social-media__item" src="img/Myspace.svg" alt="myspace">
+      <img class="social-media__item" src="img/Youtube.svg" alt="youtube">
+      <img class="social-media__item" src="img/Linkedin.svg" alt="linkedin">
+    </div>
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
